@@ -1,5 +1,6 @@
 var socket = io();
 socket.on(participantCode, function (data) {
+console.log(data);
   displayData(data);
   //;
 });
